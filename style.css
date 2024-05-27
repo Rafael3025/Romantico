@@ -26,6 +26,7 @@
 *{
     margin: 0px;
     padding: 0px;
+ 
 }
   body{
    background-color: darkgrey;
@@ -81,20 +82,41 @@ a:hover{
     color: var(--cor1);
     background-size: cover;
     background-attachment: fixed;
+    
 
   }
 
   section.imagem > p{
     display: inline-block;
     padding: 6px;
-    background-color: rgba(0, 0, 0, 0.411)
+    background-color: rgba(0, 0, 0, 0.411);
+    
+
   }
   section#img01{
-    background-image: url(/imagens/IMG_20230623_221710.jpg);
-    background-position: right center ;
+    background-image: url(/imagens/IMG_20230623_221710-edit.jpg);
+    background-position: center center ;
+    box-shadow: inset 1px 3px 0px rgba(0, 0, 0, 0.781);
+    border-radius: 10px;
   }
   section#img02{
-    background-image: url(/imagens/IMG_20240430_211155.jpg);
+    background-image: url(/imagens/IMG_20240430_211155-edit3.jpg);
+    background-position: top center ;
+    box-shadow: inset 1px 3px 0px rgba(0, 0, 0, 0.774);
+    border-radius: 10px;
+  }
+  footer{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 1em;
+    background-color:#E1ADFE;
+    font-family: var(--fonte2);
+  }
+  footer a:hover{
+    background-color: black;
+    color:#652A8C;
+    
+    
   }
   
   
