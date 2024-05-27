@@ -3,6 +3,8 @@
 @font-face {
     font-family: 'love';
     src: url('love story ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
@@ -15,8 +17,85 @@
     --fonte1: "Poetsen One", sans-serif;
     --fonte2: "Bebas Neue", sans-serif;
     --fonte3: "love", times, serif;
+
+    --cor1: rgba(255, 255, 255, 0.856);
+    --cor2: #E1ADFE;
+    --cor3: #652A8C;
     
   }
-  header h1{
-    font-family: var(--fonte3);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+  body{
+   background-color: darkgrey;
   }
+
+  header{
+    text-align: center;
+    color: white;
+    background-color: #E1ADFE;
+  }
+  header h1 {
+    font-family: var(--fonte3);
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 5vw;
+    
+  }
+  header p > a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 1.6em;
+    padding-top: 20px;     
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+  }
+a:hover{
+    text-decoration: underline;
+  }
+ p {
+    font-size: 1em;
+
+  }
+  section{
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    line-height: 1em;
+    padding-left: 20px;
+    font-size: 2em;
+  }
+  section p {
+    padding-bottom: 1em;
+  }
+  section.normal{
+    background-color: white;
+    color: black;
+  }
+  section.imagem{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+  section.imagem > p{
+    display: inline-block;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.411)
+  }
+  section#img01{
+    background-image: url(/imagens/IMG_20230623_221710.jpg);
+    background-position: right center ;
+  }
+  section#img02{
+    background-image: url(/imagens/IMG_20240430_211155.jpg);
+  }
+  
+  
+  
